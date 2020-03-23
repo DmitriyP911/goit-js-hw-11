@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./timer/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="timer" id="timer-1">
+        <div class="fields">
+            <div class="wrapper">
+                <span class="label">Days</span>
+                <div class="field">
+                    <span class="value" data-value="days"></span>
+                </div>
+            </div>
+            <div class="wrapper">
+                <span class="label">Hours</span>
+                <div class="field">
+                    <span class="value" data-value="hours"></span>
+                </div>
+            </div>
+            <div class="wrapper">
+                <span class="label">Minutes</span>
+                <div class="field">
+                    <span class="value" data-value="mins"></span>
+                </div>
+            </div>
+            <div class="wrapper">
+                <span class="label">Seconds</span>
+                <div class="field">
+                    <span class="value" data-value="secs"></span>
+                </div>
+            </div>
+            </divclass="wrapper">
+        </div>
+
+        <!-- COLOR SWITCH -->
+        <div class="change-color">
+            <button type="button" data-action="start">Start</button>
+            <button type="button" data-action="stop">Stop</button>
+        </div>
+        <script type="module" src="./color-switch/color-switch.js"></script>
+        <!-- PROMISE -->
+        <script type="module" src="./promisification/promise_task_01.js"></script>
+        <script type="module" src="./promisification/promise_task_02.js"></script>
+        <script type="module" src="./promisification/promise_task_03.js"></script>
+        <!-- TIMER -->
+        <script type="module" src="./timer/timer.js"></script>
+</body>
+
+</html>

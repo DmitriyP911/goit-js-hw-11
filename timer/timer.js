@@ -40,5 +40,5 @@ class CountdownTimer {
     }
 }
 
-const countdownTimer = new CountdownTimer( "#timer-1", "2020 april 2 19:00" );
+const countdownTimer = new CountdownTimer( "#timer-1", "2020 december 31 20:00" );
 countdownTimer.start();
